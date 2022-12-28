@@ -100,7 +100,7 @@ function App() {
     <p>Para os momentos com minha gatinha ❤️</p>
      <img src={path} className='foto' alt='foto'/>
      <AiOutlineReload 
-     onClick={()=>setReload(!reload)} size={80} color={'white'} 
+     onClick={()=>setReload(!reload)} size={60} color={'white'} 
      fontWeight={400} style={{marginTop:20,fontWeight:'bolder'}}/>
     </div>
   );
